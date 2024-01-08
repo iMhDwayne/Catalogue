@@ -138,3 +138,25 @@ div#gros-titre {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+@media screen and (max-width: 1200px) {
+    #grille {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #grille {
+        grid-template-columns: 1fr;
+    }
+}
+
+.bloc {
+    margin: 10px;
+
+}
+
+.bloc img {
+    width: 100%;
+    border-radius: 20px;
+}
