@@ -14,6 +14,7 @@
 
 .flex {
     display: flex;
+    z-index: 700;
 
 }
 
@@ -34,18 +35,19 @@ li.boutton a{
     font-size: .9rem;
     font-weight: 600;
     padding: 0px 20px;
-    line-height: 80px;
+    line-height: 40px;
     transition: all 0.3s;
+    height: 40px;
+    margin-top: 20px;
 }
 
 
 li.boutton:hover a{
-    box-shadow: 0 0 20px;
+    box-shadow: 0 0 10px;
     background-color: white;
     color: #D31E44;
-    border: solid 3px #D31E44;
+    border: solid 1px #D31E44;
     font-weight: 800;
-
 }
 
 
@@ -191,7 +193,6 @@ div#gros-titre {
     position: absolute;
 }
 
-header {position: ;}
 
 /* GRID */ 
 
