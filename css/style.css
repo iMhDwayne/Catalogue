@@ -134,7 +134,7 @@ div#gros-titre {
 #grid {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -152,11 +152,33 @@ div#gros-titre {
 }
 
 .bloc {
-    margin: 10px;
+    margin: 25px;
+    background-color: #b1b0b954;
+    border-radius: 10px ;
 
 }
 
 .bloc img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.text {
+    padding-left: 10px;
+    h3 {
+        margin: 20px 0 10px 0;
+    }
+    p {color:#707070;
+    font-size: .9rem;
+font-weight: 400;
+width: 90%;}
+padding-bottom: 10px;
+
+}
+
+.bloc .picto {
+    max-width: 50px;width: 100%;
+   display: flex;
+   margin: 20px 10px ;
 }
